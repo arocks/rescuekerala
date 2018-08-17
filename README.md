@@ -63,6 +63,18 @@ https://github.com/vigneshhari/keralarescue_test_settings for local testing.
 pip3 install -r requirements.txt
 ```
 
+If you are using [pipenv](https://docs.pipenv.org/), then install dependencies for development:
+
+```
+pipenv install --dev
+```
+
+Now you need to enter the pipenv shell:
+
+```
+pipenv shell
+```
+
 4. Run database migrations.
 
 ```
