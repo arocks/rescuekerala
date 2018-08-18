@@ -14,6 +14,7 @@ pytz = "*"
 raven = "*"
 whitenoise = "*"
 Django = "*"
+django-redis = "*"
 
 [dev-packages]
 
