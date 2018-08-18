@@ -95,14 +95,19 @@ pip3 install -r requirements.txt
 If you are using [pipenv](https://docs.pipenv.org/), then install dependencies for development:
 
 ```
+pip install pipenv
 pipenv install --dev
 ```
+
+Or in short, the same commands can be executed by entering `make setup`.
 
 Now you need to enter the pipenv shell:
 
 ```
 pipenv shell
 ```
+Again, the same commands can be executed by entering `make setup`.
+
 
 4. Run database migrations.
 
